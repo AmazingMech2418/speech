@@ -20,7 +20,7 @@ speechdata.onresult = function(e) {data = e.results[0][0].transcript;}
         blocks: [
             // Block type, block name, function name
             ['w', 'get speech', 'gs'],
-            ['w', 'say %s', 'hi' 'say'],
+            ['w', 'say %s', 'hi', 'say'],
             ['r','Speech','s']
         ],
 menus: {
