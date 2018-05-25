@@ -4,7 +4,7 @@ speechSynthesis.speak(new SpeechSynthesisUtterance(text));
 }
 var zz;
 speechdata.onresult = function(e) {zz = e.results[0][0].transcript;}
-(function(ext) {
+new(function(ext) {
     // When Scratch closes, do this
     ext._shutdown = function() {
         // Nothing here at the moment...
