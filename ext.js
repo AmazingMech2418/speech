@@ -20,7 +20,7 @@ new(function(ext) {
         blocks: [
             // Block type, block name, function name
             [' ', 'get speech', 'gs'],
-            [' ', 'say %s', 'hi', 'say'],
+            [' ', 'say %s', 'say', 'hi'],
             ['r','Speech','s']
         ],
 menus: {
