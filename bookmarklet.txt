@@ -1,0 +1,1 @@
+javascript:(function (){var s = document.createElement('script');s.setAttribute('src', 'https://rawgit.com/amazinigmech2418/speech/master/ext.js');document.body.appendChild(s);})();
