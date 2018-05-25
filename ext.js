@@ -2,8 +2,8 @@ var speechdata = new webkitSpeechRecognition();
 var speak = function(text) {
 speechSynthesis.speak(new SpeechSynthesisUtterance(text));
 }
-var data;
-speechdata.onresult = function(e) {data = e.results[0][0].transcript;}
+var zz;
+speechdata.onresult = function(e) {zz = e.results[0][0].transcript;}
 (function(ext) {
     // When Scratch closes, do this
     ext._shutdown = function() {
@@ -38,7 +38,7 @@ ext.say = function(a) {
 speak(a);
 };
 ext.s = function() {
-return data;
+return zz;
 };
     
     // Name of Scratch Extension goes here
