@@ -19,8 +19,8 @@ new(function(ext) {
     var descriptor = {
         blocks: [
             // Block type, block name, function name
-            ['w', 'get speech', 'gs'],
-            ['w', 'say %s', 'hi', 'say'],
+            [' ', 'get speech', 'gs'],
+            [' ', 'say %s', 'hi', 'say'],
             ['r','Speech','s']
         ],
 menus: {
