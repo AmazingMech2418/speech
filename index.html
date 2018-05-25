@@ -1,0 +1,10 @@
+<script>
+var speechdata = new webkitSpeechRecognition();
+var speak = function(text) {
+speechSynthesis.speak(new SpeechSynthesisUtterance(text));
+}
+var data;
+speechdata.onresult = function(e) {data = e.results[0][0].transcript;}
+</script>
+<button onclick="speechdata.start();">record</button>
+<button onclick="speak(data);">play</button>
